@@ -4,9 +4,9 @@ import Navbar from '../Pages/Shared/Navbar/Navbar';
 
 const Layouts = () => {
   return (
-    <div className='font-inter'>
+    <div className='font-inter container mx-auto md:mx-auto scroll-smooth '>
       <Navbar />
-      <div className='container mx-auto md:mx-auto scroll-smooth  min-h-[calc(100vh-232px)]'>
+      <div className=' min-h-[calc(100vh-232px)]'>
         <Outlet />
       </div>
       <Footer />
