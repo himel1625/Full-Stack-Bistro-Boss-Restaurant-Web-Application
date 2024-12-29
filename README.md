@@ -2,7 +2,6 @@
 
 ## Full-Stack-Bistro-Boss-Restaurant-Web-Application
 
-
 ## Technologies Used
 
 ### **Frontend:**
@@ -15,8 +14,6 @@
   styling. It helps in designing modern, responsive layouts with ease.
 - **Firebase Authentication**: Used to handle secure user login and registration
   with options for email/password and Google login.
-- **React Tabs**: A library used to implement tab-based navigation for browsing
-  jobs by category.
 - **React Context API**: Used for managing global state, especially for user
   authentication and session management.
 - **Toast Notifications**: Provides instant feedback to users when actions are
