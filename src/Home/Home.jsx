@@ -4,6 +4,8 @@ import Category from '../Components/Category/Category';
 import Contact from '../Pages/Contact/Contact';
 import Featured from '../Pages/Featured/Featured';
 import PopularMenu from '../Pages/PopularMenu/PopularMenu';
+import Recommendation from '../Pages/Recommendation/Recommendation';
+import Testimonial from '../Pages/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -16,8 +18,10 @@ const Home = () => {
       </div>
       <Category />
       <PopularMenu />
-      <Featured />
       <Contact />
+      <Recommendation />
+      <Featured />
+      <Testimonial />
     </>
   );
 };
