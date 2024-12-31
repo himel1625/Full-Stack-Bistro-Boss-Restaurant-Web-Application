@@ -1,6 +1,12 @@
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import FeaturedImg from '../../assets/home/featured.jpg';
 
+const CustomButton = () => (
+  <button className='bg-transparent text-white border-0 border-b-2 border-white rounded-none text-base py-1.5 px-4 hover:bg-yellow-400 hover:bg-opacity-10 hover:border-white'>
+    Your Button Text
+  </button>
+);
+
 const Featured = () => {
   return (
     <div className='bg-featured bg-cover bg-fixed bg-center text-white'>
@@ -26,6 +32,7 @@ const Featured = () => {
             Eaque repellat recusandae ad laudantium tempore consequatur
             consequuntur omnis ullam maxime tenetur.
           </p>
+          <CustomButton className='mt-4'>Check It Out</CustomButton>
         </div>
       </div>
     </div>
