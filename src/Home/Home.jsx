@@ -1,6 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 import Banner from '../Components/Banner/Banner';
 import Category from '../Components/Category/Category';
+import Featured from '../Pages/Featured/Featured';
+import PopularMenu from '../Pages/PopularMenu/PopularMenu';
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         <Banner />
       </div>
       <Category />
+      <PopularMenu />
+      <Featured />
     </>
   );
 };

@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className=' container fixed z-10 bg-opacity-30  bg-black '>
       <div className='  mx-auto flex items-center justify-between h-20 md:px-8'>
         {/* Logo */}
-        <div className='text-2xl font-extrabold font-cinzel text-white mx-4 flex flex-col'>
+        <div className='text-2xl font-extrabold font-cinzel text-white mx-4 flex flex-col select-none'>
           Bistro-Boss
           <span className='text-sm'> R E S T A U R A N T</span>
         </div>

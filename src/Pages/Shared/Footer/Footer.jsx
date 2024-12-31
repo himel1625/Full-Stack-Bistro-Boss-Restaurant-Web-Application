@@ -62,7 +62,7 @@ const Footer = () => {
         sx={{ padding: '10px 0', textAlign: 'center' }}
       >
         <Typography>
-          &copy; {new Date().getFullYear()} CulinaryCloud. All rights reserved.
+          &copy; {new Date().getFullYear()} Bistro-Boss. All rights reserved.
         </Typography>
       </Box>
     </Box>

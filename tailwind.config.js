@@ -8,7 +8,10 @@ export default {
         cinzel: ['Cinzel', 'serif'],
       },
       colors: {
-        customYellow: '#eeff25', 
+        customYellow: '#eeff25',
+      },
+      backgroundImage: {
+        featured: "url('./src/assets/home/featured.jpg')",
       },
     },
   },
