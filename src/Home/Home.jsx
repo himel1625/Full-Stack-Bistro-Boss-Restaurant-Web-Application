@@ -3,6 +3,7 @@ import Banner from '../Components/Banner/Banner';
 import Category from '../Components/Category/Category';
 import Contact from '../Pages/Contact/Contact';
 import Featured from '../Pages/Featured/Featured';
+import Newsletter from '../Pages/Newsletter/Newsletter';
 import PopularMenu from '../Pages/PopularMenu/PopularMenu';
 import Recommendation from '../Pages/Recommendation/Recommendation';
 import Testimonial from '../Pages/Testimonial/Testimonial';
@@ -17,6 +18,7 @@ const Home = () => {
         <Banner />
       </div>
       <Category />
+      <Newsletter />
       <PopularMenu />
       <Contact />
       <Recommendation />
